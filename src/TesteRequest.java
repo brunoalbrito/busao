@@ -65,7 +65,8 @@ public class TesteRequest {
     }
     public static void fazerBuscaLinha(String cookie){
         try {
-            URL url = new URL("http://api.olhovivo.sptrans.com.br/v2.1/Posicao?codigoLinha=775P");
+            URL url = new URL("http://api.olhovivo.sptrans.com.br/v2.1/Posicao?codigoLinha=507");
+//            URL url = new URL("http://api.olhovivo.sptrans.com.br/v2.1//Linha/Buscar?termosBusca=Guarau");
             
             Proxy proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("172.16.0.10", 3128));
             HttpURLConnection connection = (HttpURLConnection) url.openConnection(proxy);
