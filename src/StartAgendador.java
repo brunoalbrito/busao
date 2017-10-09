@@ -19,16 +19,16 @@ public class StartAgendador {
         /**
          * timer.schedule(tarefa a ser executada, tempo de espera para executar, intervalo entre as execucoes)
          */
-        timer.schedule(agendador, 0, 1000);
-        while (true) {
-            System.out.println("Alerta de execução ...");
-            try {
-                Thread.sleep(2000);
-            } catch (InterruptedException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
-            }
-        }
+        timer.schedule(agendador, 0, 3000);
+//        while (true) {
+//            System.out.println("Alerta de execução ...");
+//            try {
+//                Thread.sleep(2000);
+//            } catch (InterruptedException e) {
+//                // TODO Auto-generated catch block
+//                e.printStackTrace();
+//            }
+//        }
     }
 
 }

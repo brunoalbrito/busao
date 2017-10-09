@@ -20,6 +20,11 @@ public class Agendador extends TimerTask{
     public void run() {
         instanteAtual = new Date();
         System.out.println(instanteAtual);
+        System.out.println("Onde está o busao?");
+        Onibus onibus = new  Onibus("Peri peri", 10, 10);
+        PontoOnibus pontoOnibus = new PontoOnibus("Raposo Tavares", 0, 0);
+        System.out.println(onibus);
+        System.out.println(pontoOnibus);
     }
     
 }
