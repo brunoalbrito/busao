@@ -1,5 +1,7 @@
 package br.com.panelinha.model;
 
+
+
 public class PontoOnibus {
 
     private String endereco;

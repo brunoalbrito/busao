@@ -1,5 +1,7 @@
 package br.com.panelinha.model;
 
+
+
 public class Onibus {
 
     private String linha;
