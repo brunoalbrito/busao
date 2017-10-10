@@ -7,6 +7,7 @@ package br.com.panelinha.model;
  */
 
 
+import br.com.mack.teste.TesteRequest;
 import java.util.Date;
 import java.util.TimerTask;
 
@@ -23,10 +24,11 @@ public class Agendador extends TimerTask{
         instanteAtual = new Date();
         System.out.println(instanteAtual);
         System.out.println("Onde está o busao?");
-        Onibus onibus = new  Onibus("Peri peri", 10, 10);
-        PontoOnibus pontoOnibus = new PontoOnibus("Raposo Tavares", 0, 0);
-        System.out.println(onibus);
-        System.out.println(pontoOnibus);
+//        Onibus onibus = new  Onibus("Peri peri", 10, 10);
+//        PontoOnibus pontoOnibus = new PontoOnibus("Raposo Tavares", 0, 0);
+//        System.out.println(onibus);
+//        System.out.println(pontoOnibus);
+//        TesteRequest.main();
     }
     
 }
