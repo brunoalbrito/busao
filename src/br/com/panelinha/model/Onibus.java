@@ -1,20 +1,20 @@
 package br.com.panelinha.model;
 
-
-
 public class Onibus {
 
     private String linha;
     private long latitude;
     private long longitude;
+    private int prefixo;
 
     public Onibus() {
     }
 
-    public Onibus(String linha, long latitude, long longitude) {
+    public Onibus(String linha, long latitude, long longitude, int prefixo) {
         this.linha = linha;
         this.latitude = latitude;
         this.longitude = longitude;
+        this.prefixo = prefixo;
     }
 
     public String getLinha() {
@@ -43,6 +43,7 @@ public class Onibus {
 
     @Override
     public String toString() {
-        return "Onibus{" + "linha=" + linha + ", latitude=" + latitude + ", longitude=" + longitude + '}';
+        return "Onibus{" + "linha=" + linha + ", latitude=" + latitude + ", longitude=" + longitude + ", prefixo=" + prefixo + '}';
     }
+
 }
